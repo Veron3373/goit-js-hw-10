@@ -1,35 +1,32 @@
 {
   "name": "goit-js-hw-10",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
-  "homepage": "https://Veron3373.github.io/goit-js-hw-10",
+  "homepage": "https://veron3373.github.io/goit-js-hw-10",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Veron3373/goit-js-hw-10.git"
+    "url": "git+https://github.com/veron3373/goit-js-hw-10.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Veron3373/goit-js-hw-10/issues"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-nuke-dist": "^1.0.1",
-    "posthtml-include": "^1.7.2",
-    "sass": "^1.49.10"
+    "url": "https://github.com/veron3373/goit-js-hw-10/issues"
   },
   "dependencies": {
-    "flatpickr": "^4.6.11",
-    "loda": "^0.1.3",
     "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5"
-  }
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }

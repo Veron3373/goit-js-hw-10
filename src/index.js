@@ -12,7 +12,7 @@ const countryInfo = document.querySelector('.country-info');
 countryInput.addEventListener('input', debounce(inputCountry, DEBOUNCE_DELAY));
 
 function inputCountry(evt) {
-  const nameCountry = evt.target.value.trim();
+  const nameCountry = evt.target.value //.trim();
   if (nameCountry === "") {
     return;
   }
